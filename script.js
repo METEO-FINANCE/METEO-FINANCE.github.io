@@ -1,1 +1,0 @@
-document.querySelector('.btn').addEventListener('mouseover',e=>e.target.style.opacity=.85);document.querySelector('.btn').addEventListener('mouseout',e=>e.target.style.opacity=1);
