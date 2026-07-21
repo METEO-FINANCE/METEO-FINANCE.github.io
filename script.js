@@ -30,8 +30,14 @@ contactForm.addEventListener('submit', () => {
 
 // Paiement Indy : modifier uniquement ces trois lignes lorsqu'une facture doit être réglée.
 const paiementActif = false;
+// false <-> true
 const factureActive = 'FAC-2026-001';
+// FAC-2026-001 <-> FAC-202?-???
 const lienPaiementIndy = '#';
+// # <-> lien Indy
+
+
+
 
 const paymentModal = document.createElement('div');
 paymentModal.className = 'payment-modal';
