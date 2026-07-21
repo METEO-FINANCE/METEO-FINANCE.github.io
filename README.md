@@ -1,2 +1,2 @@
-# METEO-FINANCE.github.io
+# meteofinance.github.io
 Site internet de METEO FINANCE
