@@ -24,7 +24,16 @@ contactForm.addEventListener('submit', () => {
   contactForm.querySelector('[name="_replyto"]').value = contactForm.elements.email.value;
 });
 
+
+
+
+
 const indyLinks = { secure: '#' };
+
+
+
+
+
 document.querySelectorAll('[data-payment]').forEach(link => {
   const url = indyLinks[link.dataset.payment];
   if (url !== '#') link.href = url;
