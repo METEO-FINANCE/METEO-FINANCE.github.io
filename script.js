@@ -28,6 +28,7 @@ contactForm.addEventListener('submit', () => {
 
 
 
+//Remplacer # par le lien de paiement généré sur Indy, et remettre # une fois le paiement effectué
 const indyLinks = { secure: '#' };
 
 
